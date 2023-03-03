@@ -1,0 +1,53 @@
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 0.4rem;
+    padding: 0.4rem;
+    cursor: pointer;
+    z-index: 999;
+
+    span {
+        height: 0.25rem;
+        background-color: #3E54AC;
+        border-radius: 1rem;
+        transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+    }
+
+    .line1 {
+        width: 2.4rem;
+    }
+
+    .line2 {
+        width: 2rem;
+    }
+
+    .line3 {
+        width: 1.6rem;
+    }
+
+    &:hover {
+        span {
+            width: 2.4rem;
+        }
+
+        .line1 {
+            transform: translateY(10px) rotate(45deg);
+        }
+    
+        .line2 {
+            opacity: 0;
+        }
+    
+        .line3 {
+            transform: translateY(-10px) rotate(-45deg);
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .hamburger-menu {
+        display: flex;
+    }
+}

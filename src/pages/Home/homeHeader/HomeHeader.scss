@@ -19,20 +19,48 @@
   .home-header__types {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: end;
+    align-items: center;
     gap: 1rem;
     margin-bottom: 1rem;
 
     .types-links {
+      display: flex;
       text-decoration: none;
       color: #ffffff;
       background-color: #3e54ac;
       padding: 1rem 2rem;
-      margin-top: 2rem;
       border-radius: 0.6rem;
       transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 
       &:hover {
         background-color: #2e3e8c;
+        box-shadow: 0 0 0.4rem 0.2rem #2e3e8c;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .home-header {
+    clip-path: polygon(0 0, 100% 0%, 100% 90%, 0% 100%);
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .home-header {
+    padding: 0 2rem;
+    clip-path: polygon(0 0, 100% 0%, 100% 92%, 0% 100%);
+
+    .home-header__types {
+      flex-direction: column-reverse;
+      width: 100%;
+
+      .types-links {
+        width: 20rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
     }
   }

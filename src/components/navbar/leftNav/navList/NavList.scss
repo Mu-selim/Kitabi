@@ -2,6 +2,7 @@
   list-style: none;
   display: flex;
   flex-direction: row-reverse;
+  align-items: center;
   gap: 1rem;
 
   .nav-links {
@@ -43,5 +44,12 @@
     &:hover::before {
       width: 100%;
     }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .nav-list {
+    flex-direction: column;
+    gap: 1.4rem;
   }
 }
