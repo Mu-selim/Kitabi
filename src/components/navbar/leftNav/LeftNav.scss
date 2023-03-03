@@ -11,12 +11,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 2rem;
+    gap: 2.6rem;
     left: -100%;
     top: 0.2rem;
     width: max(40vw, 200px);
     height: calc(100vh - 0.2rem);
     background-color: #ECF2FF;
     transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+    &.active {
+      left: 0;
+    }
   }
 }
