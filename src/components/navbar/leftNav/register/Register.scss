@@ -5,6 +5,7 @@
   padding: 0.6rem 1rem;
   border-radius: 0.4rem;
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  user-select: none;
 
   &:hover {
     background-color: #2e3e8c;

@@ -1,0 +1,117 @@
+.books-grid {
+  width: 100%;
+  padding: 0px 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1rem;
+
+  .books-grid__book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.4rem;
+    overflow: hidden;
+
+    .book-img {
+      position: relative;
+      width: 100%;
+      height: 25rem;
+      overflow: hidden;
+
+      .book-img__link {
+        width: 100%;
+        text-decoration: none;
+
+        img {
+          width: 100%;
+          object-fit: cover;
+        }
+
+        .book-info {
+          color: #ecf2ff;
+          padding: 1.4rem 1rem;
+          position: absolute;
+          left: 0;
+          bottom: -100%;
+          width: 100%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          gap: 1rem;
+          direction: rtl;
+          transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+          background: rgb(0, 0, 0);
+          background: linear-gradient(
+            0deg,
+            rgba(0, 0, 0, 1) 0%,
+            rgba(0, 0, 0, 0.6166841736694677) 42%,
+            rgba(255, 255, 255, 0) 100%
+          );
+
+          .book-info__title {
+            font-size: 1.2rem;
+          }
+        }
+
+        &:hover .book-info {
+          bottom: 0;
+        }
+      }
+    }
+
+    .book-details {
+        width: 100%;
+        padding: 1rem 0.8rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.8rem;
+        direction: rtl;
+        background: #ffffff;
+
+        & * {
+            text-decoration: none;
+            color: #3E54AC;
+        }
+    }
+
+    .book-price {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        direction: rtl;
+        background: #BFACE2;
+
+        .book-price__discount,
+        .book-price__actual {
+            font-size: 0.8rem;
+            padding: 0.4rem;
+            color: #1b2961;
+        }
+
+        .book-price__cart {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0.8rem;
+            width: 2.8rem;
+            height: 2rem;
+            background-color: #3E54AC;
+        }
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+    .books-grid {
+        padding: 0px 2rem;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .books-grid {
+        padding: 0px 1rem;
+    }
+}

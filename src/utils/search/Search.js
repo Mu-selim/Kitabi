@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import SearchIcon from "../icons/searchicon/SearchIcon";
 import "./Search.scss";
 
@@ -8,6 +7,7 @@ const Search = ({ propsData }) => {
 
   const changeHandle = (e) => {
     setSearchText(e.target.value);
+    console.log(searchText);
   };
 
   return (
@@ -18,12 +18,9 @@ const Search = ({ propsData }) => {
         placeholder={propsData.placeholder}
         onChange={changeHandle}
       />
-      <Link
-        to={`/search/${searchText}`}
-        className={`SearchIcon ${propsData.borderRadiusSearchIcon}`}
-      >
+      <div className={`SearchIcon ${propsData.borderRadiusSearchIcon}`}>
         <SearchIcon />
-      </Link>
+      </div>
     </div>
   );
 };
