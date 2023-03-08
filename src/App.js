@@ -4,7 +4,9 @@ import Home from "./pages/Home/Home";
 import { MenuContextProvider } from "./hooks/contexts/useMenuContext";
 import { useEffect } from "react";
 import { consoleMessage } from "./Features/consoleMessage";
+import { inject } from '@vercel/analytics';
 
+inject();
 const App = () => {
 
   useEffect(()=> {
