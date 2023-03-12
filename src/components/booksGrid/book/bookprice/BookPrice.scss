@@ -1,0 +1,25 @@
+.book-price {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  direction: rtl;
+  background: #bface2;
+
+  .book-price__discount,
+  .book-price__actual {
+    font-size: 0.8rem;
+    padding: 0.4rem;
+    color: #1b2961;
+  }
+
+  .book-price__cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.8rem;
+    width: 2.8rem;
+    height: 2rem;
+    background-color: #3e54ac;
+  }
+}

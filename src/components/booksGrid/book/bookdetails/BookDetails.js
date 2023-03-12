@@ -11,7 +11,7 @@ const BookDetails = ({ book }) => {
         to={`/categories/${book.department}`}
         className="book-details__category"
       >
-        {book.department}
+        {book.department.join(", ")}
       </Link>
     </div>
   );
