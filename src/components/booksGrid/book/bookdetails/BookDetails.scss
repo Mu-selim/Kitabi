@@ -1,0 +1,15 @@
+.book-details {
+  width: 100%;
+  padding: 1rem 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.8rem;
+  direction: rtl;
+  background: #ffffff;
+
+  & * {
+    text-decoration: none;
+    color: #3e54ac;
+  }
+}
