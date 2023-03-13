@@ -175,7 +175,7 @@
       "title": "رواية الوباء (سلسلة سافاري 1)",
       "authors": ["احمد خالد توفيق"],
       "translator": null,
-      "publisher": "سما للنشر والتوزيع",
+      "publisher": "المؤسسة العربية الحديثة",
       "year": 1996,
       "pages": null,
       "description": "فى قلب الأحراش الإفريقية تحرك فى بطء .. ترعرع .. ثم بدأ يحبو فيمشى فيهرول فيرمح فى سرعة جنونية ، مبعثرًا الدماء والموت فى كل صوب .. تاركًا وراءه خطأ من القبور والجثث المحترقة ..",
@@ -187,6 +187,24 @@
       "audio": true,
       "videoUrl": "https://www.youtube.com/embed/rVfqKYAdS0E",
       "cover": "https://www.8gharb.com/wp-content/uploads/2019/09/22-110.jpg"
+    },
+    {
+      "id": 12,
+      "title": "رواية خاطفو الأجساد (سلسلة سافاري 2)",
+      "authors": ["احمد خالد توفيق"],
+      "translator": null,
+      "publisher": "المؤسسة العربية الحديثة",
+      "year": 1996,
+      "pages": null,
+      "description": "يحكون ــ أولئك ( البانتو ) ــ عن ( روح الأدغال ) التى تنتزع الأذرع وتمزق الأقدام .. يحكون عن أماكن محرمة فى الدغل لا يمكن أن يدخلهـا إلا مخبـول .. يحكون عن سحر قديم .. وعن لعنة دائمة .. وعن أرواح غاضبة .. يحكون وما أكثر ما يحكى ( البانتو ) ..",
+      "ISBN": null,
+      "department": ["روايات"],
+      "price": null,
+      "discount": 0,
+      "free": true,
+      "audio": true,
+      "videoUrl": "https://www.youtube.com/embed/TBwDjsus-Wg",
+      "cover": "https://www.8gharb.com/wp-content/uploads/2019/09/22-111.jpg"
     }
   ]
 }

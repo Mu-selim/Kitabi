@@ -10,11 +10,9 @@ const BookPrice = ({ book }) => {
   }
   return (
     <div className="book-price">
-      <span className="book-price__discount">{ book.discount } %</span>
-      <span className="book-price__actual">{ price }</span>
-      <span className="book-price__cart">
-        <Cart />
-      </span>
+      { !book.audio && <span className="book-price__discount">{ book.discount} %</span> }
+      { !book.audio && <span className="book-price__actual">{ price }</span> }
+      { !book.audio && <span className="book-price__cart"><Cart /></span> }
     </div>
   );
 };
