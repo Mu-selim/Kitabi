@@ -12,4 +12,13 @@
     text-decoration: none;
     color: #3e54ac;
   }
+
+  .book-details__container {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 0.6rem;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 }

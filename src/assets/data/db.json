@@ -13,6 +13,8 @@
       "department": ["روايات"],
       "price": 115.0,
       "discount": 10,
+      "free": false,
+      "audio": false,
       "cover": "https://cdn.aseeralkotb.com/storage/media/311482/conversions/%D9%85%D8%B1%D9%83%D8%A8-%D8%B9%D9%85-%D8%AC%D8%A7%D8%A8%D8%B1-2-27983-200x300-webp.webp"
     },
     {
@@ -28,6 +30,8 @@
       "department": ["روايات"],
       "price": 140.0,
       "discount": 10,
+      "free": false,
+      "audio": false,
       "cover": "https://cdn.aseeralkotb.com/storage/media/311479/conversions/%D8%A8%D8%B5%D9%85%D8%A7%D8%AA-%D8%AE%D8%A7%D8%AF%D8%B9%D8%A9-27982-200x300-webp.webp"
     },
     {
@@ -43,6 +47,8 @@
       "department": ["روايات"],
       "price": 105.0,
       "discount": 10,
+      "free": false,
+      "audio": false,
       "cover": "https://cdn.aseeralkotb.com/storage/media/311467/conversions/%D8%A7%D9%84%D9%85%D9%82%D8%A8%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D9%86%D8%B3%D9%8A%D8%A9-27978-200x300-webp.webp"
     },
     {
@@ -58,6 +64,8 @@
       "department": ["روايات"],
       "price": 150.0,
       "discount": 10,
+      "free": false,
+      "audio": false,
       "cover": "https://cdn.aseeralkotb.com/storage/media/311449/conversions/%D8%AF%D8%AC%D8%A7%D9%84-27972-200x300-webp.webp"
     },
     {
@@ -73,6 +81,8 @@
       "department": ["روايات"],
       "price": 225.0,
       "discount": 10,
+      "free": false,
+      "audio": false,
       "cover": "https://cdn.aseeralkotb.com/storage/media/296638/conversions/%D9%85%D9%86%D8%A7%D9%88%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D9%84%D9%83%D8%A9-23806-200x300-webp.webp"
     },
     {
@@ -88,6 +98,8 @@
       "department": ["روايات", "فانتازيا", "مغامرات"],
       "price": 200.0,
       "discount": 30,
+      "free": false,
+      "audio": false,
       "cover": "https://cdn.aseeralkotb.com/storage/media/264234/conversions/%D8%A3%D9%85%D8%A7%D8%B1%D9%8A%D8%AA%D8%A7-133-200x300-webp.webp"
     },
     {
@@ -103,6 +115,8 @@
       "department": ["روايات", "فانتازيا"],
       "price": 210.0,
       "discount": 30,
+      "free": false,
+      "audio": false,
       "cover": "https://cdn.aseeralkotb.com/storage/media/307302/conversions/%D9%88%D8%A7%D8%AF%D9%8A-%D8%A7%D9%84%D8%B0%D8%A6%D8%A7%D8%A8-%D8%A7%D9%84%D9%85%D9%86%D8%B3%D9%8A%D8%A9-%D8%A3%D8%B1%D8%B6-%D8%B2%D9%8A%D9%83%D9%88%D9%84%D8%A7-3-26775-200x300-webp.webp"
     },
     {
@@ -118,6 +132,8 @@
       "department": ["روايات", "فانتازيا", "مغامرات"],
       "price": 200.0,
       "discount": 30,
+      "free": false,
+      "audio": false,
       "cover": "https://cdn.aseeralkotb.com/storage/media/264231/conversions/%D8%A3%D8%B1%D8%B6-%D8%B2%D9%8A%D9%83%D9%88%D9%84%D8%A7-132-200x300-webp.webp"
     }
   ]

@@ -7,12 +7,18 @@ const BookDetails = ({ book }) => {
       <Link to={`/books/${book.title}`} className="book-details__title">
         {book.title}
       </Link>
-      <Link
-        to={`/categories/${book.department}`}
-        className="book-details__category"
-      >
-        {book.department.join(", ")}
-      </Link>
+      <div className="book-details__container">
+        {book.department.map((department) => {
+          return (
+            <Link
+              to={`/categories/${department}`}
+              className="book-details__category"
+            >
+              {department}
+            </Link>
+          );
+        })}
+      </div>
     </div>
   );
 };
