@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import NavList from "./navList/NavList";
 import "./LeftNav.scss";
-import Register from "./register/Register";
+import Subscribe from "./register/Subscribe";
 import { MenuContext } from "../../../hooks/contexts/useMenuContext";
 
 const LeftNav = () => {
@@ -10,7 +10,7 @@ const LeftNav = () => {
   return (
     <div className={`left-nav ${menu}`}>
       <NavList />
-      <Register />
+      <Subscribe />
     </div>
   );
 };

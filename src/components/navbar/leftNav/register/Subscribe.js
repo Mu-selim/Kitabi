@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import "./Register.scss";
+import "./Subscribe.scss";
 import { useContext } from "react";
 import { MenuContext } from "../../../../hooks/contexts/useMenuContext";
 
-const Register = () => {
+const Subscribe = () => {
   const { setMenu } = useContext(MenuContext);
 
   const clickHandle = () => {
@@ -11,12 +11,12 @@ const Register = () => {
   };
 
   return (
-    <div className="register" onClick={clickHandle}>
-      <Link className="register-link" to="/register">
-        تسجيل
+    <div className="subscribe" onClick={clickHandle}>
+      <Link className="subscribe-link" to="/subscribe">
+        تابعنا
       </Link>
     </div>
   );
 };
 
-export default Register;
+export default Subscribe;
