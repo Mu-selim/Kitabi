@@ -5,7 +5,7 @@ import db from '../../../assets/data/db.json';
 const AudioBooks = () => {
   let books = [...db.books];
   books = books.filter((book) => book.audio);
-  books = books.slice(0, Math.min(books.length, 8));
+  books = books.slice(0, Math.min(books.length, 4));
 
   return (
     <div className="audio-books-container">

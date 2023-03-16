@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import NavList from "./navList/NavList";
 import "./LeftNav.scss";
-import Subscribe from "./register/Subscribe";
+import Subscribe from "./subscribe/Subscribe";
 import { MenuContext } from "../../../hooks/contexts/useMenuContext";
 
 const LeftNav = () => {

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import SearchIcon from "../icons/searchicon/SearchIcon";
+import SearchIcon from "../icons/SearchIcon";
 import "./Search.scss";
 
 const Search = ({ propsData }) => {

@@ -1,3 +1,4 @@
+import Footer from "../../components/footer/Footer";
 import AudioBooks from "./audioBooks/AudioBooks";
 import HomeHeader from "./homeHeader/HomeHeader";
 import NewBooks from "./newBooks/NewBooks";
@@ -10,6 +11,7 @@ const Home = () => {
             <TopRated />
             <NewBooks />
             <AudioBooks />
+            <Footer />
         </div>
     );
 }

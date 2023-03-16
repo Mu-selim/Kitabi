@@ -1,5 +1,5 @@
 import "./BookPrice.scss";
-import Cart from "../../../../utils/icons/cart/Cart";
+import Cart from "../../../../utils/icons/Cart";
 
 const BookPrice = ({ book }) => {
   let price;

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import Discount from "../../../../utils/icons/discount/Discount";
-import Upload from "../../../../utils/icons/upload/Upload";
+import Discount from "../../../../utils/icons/Discount";
+import Upload from "../../../../utils/icons/Upload";
 import "./NavList.scss";
 import { useContext } from "react";
 import { MenuContext } from "../../../../hooks/contexts/useMenuContext";
