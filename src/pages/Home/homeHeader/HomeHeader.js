@@ -17,7 +17,7 @@ const HomeHeader = () => {
             <div className='home-header__types'>
                 <Link className='types-links' to='/books'><span>كتب ورقية للشراء</span></Link>
                 <Link className='types-links' to='/free-books'><span>كتب للقراءة مجانا</span></Link>
-                <Link className='types-links' to='/voice-books'><span>كتب مسموعه</span></Link>
+                <Link className='types-links' to='/audiobooks'><span>كتب مسموعه</span></Link>
             </div>
         </div>
     );

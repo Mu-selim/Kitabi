@@ -1,20 +1,20 @@
 .bottom-footer {
-    direction: rtl;
-    padding: 1rem;
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    gap: 0.6rem;
+  direction: rtl;
+  padding: 1rem;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
 
-    .bottom-footer__text {
-        a {
-            color: #ffffff;
-            text-decoration: none;
-            transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  .bottom-footer__text {
+    a {
+      color: #ffffff;
+      text-decoration: none;
+      transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
 
-            &:hover {
-                color: #a3a3a3;
-            }
-        }
+      &:hover {
+        color: #a3a3a3;
+      }
     }
+  }
 }

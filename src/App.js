@@ -5,6 +5,8 @@ import { MenuContextProvider } from "./hooks/contexts/useMenuContext";
 import { useEffect } from "react";
 import { consoleMessage } from "./Features/consoleMessage";
 import { inject } from '@vercel/analytics';
+import AudioBooks from "./pages/AudioBooks/AudioBooks";
+import BooksPage from "./pages/Books/BooksPage";
 
 inject();
 const App = () => {
@@ -21,6 +23,8 @@ const App = () => {
       </MenuContextProvider>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/audiobooks" element={<AudioBooks />} />
+        <Route path="/books" element={<BooksPage />} />
         <Route path="*" element={
           <div>Notfound</div>
         } />
