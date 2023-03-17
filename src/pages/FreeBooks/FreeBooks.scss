@@ -1,0 +1,22 @@
+.free-books {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .free-books__container {
+        padding: 8rem 1rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+
+        h1 {
+            font-size: 3rem;
+            font-weight: 900;
+            color: #3e54ac;
+            text-align: center;
+        }
+    }
+}
