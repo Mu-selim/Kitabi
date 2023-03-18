@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import Footer from "../../components/footer/Footer";
 import db from "../../assets/data/db.json";
 import "./CardInfo.scss";
-import DataCard from "../../components/dataCard/DataCard";
+import BookCard from "../../components/dataCard/BookCard";
 
 const CardInfo = () => {
   const data = [...db.books];
@@ -13,7 +13,7 @@ const CardInfo = () => {
   return (
     <div className="card-info">
       <div className="card-info__container">
-        <DataCard book={book} />
+        <BookCard book={book} />
       </div>
       <Footer />
     </div>
