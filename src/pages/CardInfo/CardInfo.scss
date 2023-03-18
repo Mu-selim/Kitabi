@@ -1,0 +1,10 @@
+.card-info {
+    height: 100vh !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .card-info__container {
+        padding: 8rem 0 6rem 0;
+    }
+}

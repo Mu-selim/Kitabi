@@ -8,6 +8,7 @@ import { inject } from '@vercel/analytics';
 import AudioBooks from "./pages/AudioBooks/AudioBooks";
 import BooksPage from "./pages/Books/BooksPage";
 import FreeBooks from "./pages/FreeBooks/FreeBooks";
+import CardInfo from "./pages/CardInfo/CardInfo";
 
 inject();
 const App = () => {
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/books" element={<BooksPage />} />
         <Route path="/free-books" element={<FreeBooks />} />
         <Route path="/audiobooks" element={<AudioBooks />} />
+        <Route path="books/:title" element={<CardInfo />} />
         <Route path="*" element={
           <div>Notfound</div>
         } />
