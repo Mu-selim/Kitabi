@@ -1,9 +1,12 @@
+import { useEffect } from "react";
 import "./BookCard.scss";
 
 const BookCard = ({ book }) => {
   const isAudio = book.audio;
-  console.log(isAudio);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       {!isAudio && (
