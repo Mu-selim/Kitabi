@@ -75,26 +75,92 @@
   }
 }
 
+.data-card__audio {
+  padding: 1rem;
+  direction: rtl;
+  display: flex;
+  justify-content: center;
+  align-items: self-start;
+  gap: 1rem;
+  color: #3e54ac;
+
+  .card-audio-side {
+    max-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+
+    .about-book {
+      position: relative;
+      width: fit-content;
+      line-height: 1.6;
+
+      &::after {
+        position: absolute;
+        content: "";
+        left: 0px;
+        bottom: 0px;
+        width: 100%;
+        height: 2px;
+        background-color: #3e54ac;
+      }
+    }
+
+    .book-description {
+      background-color: #3e54ac;
+      color: #ffffff;
+      padding: 1rem 0.6rem;
+      line-height: 1.6;
+      border-radius: 0.4rem;
+    }
+  }
+
+  .audio-player {
+    width: 50%;
+    border-radius: 0.6rem;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .data-card__audio {
+    .card-audio-side {
+      max-width: 24rem;
+    }
+  }
+}
 
 @media screen and (max-width: 975px) {
-    .data-card__notaudio {
-        .card-side__two {
-            max-width: 30rem;
-        }
-        
-        .card-side__three {
-            margin-right: 0;
-        }
+  .data-card__notaudio {
+    .card-side__two {
+      max-width: 30rem;
     }
+
+    .card-side__three {
+      margin-right: 0;
+    }
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .data-card__audio {
+    flex-direction: column;
+    .card-audio-side {
+      max-width: 100%;
+    }
+    
+    .audio-player {
+      width: 100%;
+    }
+  }
 }
 
 @media screen and (max-width: 705px) {
-    .data-card__notaudio {
-        flex-direction: column;
-        align-items: center;
+  .data-card__notaudio {
+    flex-direction: column;
+    align-items: center;
 
-        .card-side__two {
-            align-items: center;
-        }
+    .card-side__two {
+      align-items: center;
     }
+  }
 }

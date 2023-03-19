@@ -70,7 +70,24 @@ const BookCard = ({ book }) => {
           </div>
         </div>
       )}
-      {isAudio && <div className="data-card__audio"></div>}
+      {isAudio && (
+        <div className="data-card__audio">
+          <div className="card-audio-side">
+            <h2 className="book-title">{book.title}</h2>
+            <p className="about-book">عن الكتاب</p>
+            <p className="book-description">{book.description}</p>
+          </div>
+          <iframe
+            className="audio-player"
+            height="315"
+            src={book.videoUrl}
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      )}
     </>
   );
 };
